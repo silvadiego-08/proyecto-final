@@ -27,7 +27,6 @@ print("Hola, " + str(name) + " Bienvenido a su control de dieta nutricional.")
 #Objetivos y preferencias alimenticias
 print("Por favor, ingrese sus objetivos y preferencias alimenticias.")
 obj_principal = input("Ingrese su objetivo principal (pérdida de peso, ganancia muscular, mantenimiento, mejorar salud general): ").lower()
-dieta = input("Ingrese su tipo de dieta preferida (vegetariana, vegana, omnívora, cetogénica, paleo): ").lower()
 alergias = input("¿Tiene alguna alergia alimentaria? (sí/no): ").lower()
 if alergias == "sí":
 	alergia_list = input("Por favor, enumere sus alergias alimentarias separadas por comas: ").split(",")
@@ -44,4 +43,4 @@ comidas_por_dia = input("¿Cuántas comidas realiza al día? (número entero): "
 print("Gracias por proporcionar su información, " + str(name) + ".")
 print("Resumen de su información:")
 print(f"Nombre: {name}, edad o fecha de nacimiento: {age_or_dob}, género: {gen}, altura: {high} m, peso actual: {act_weight} kg, peso objetivo: {obj_weight} kg")
-print(f"Nivel de actividad física: {act_fisica}, objetivo principal: {obj_principal}, tipo de dieta: {dieta}, comidas por día: {comidas_por_dia}, intolerancias: {intolerancias}, alergias: {alergias}")
+print(f"Nivel de actividad física: {act_fisica}, objetivo principal: {obj_principal}, comidas por día: {comidas_por_dia}, intolerancias: {intolerancias}, alergias: {alergias}")
