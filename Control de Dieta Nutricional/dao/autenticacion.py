@@ -1,5 +1,5 @@
 
-CLAVE = "Admin123"  # Contraseña fija para acceso
+CLAVE = "duran2025"  # Contraseña fija para acceso
 
 def inicio_sesion():
     print("=== BIENVENIDO A TU CONTROL DE DIETA NUTRICIONAL ===")
